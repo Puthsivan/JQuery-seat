@@ -1,0 +1,141 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+a {
+	color: #b71a4c;
+}
+.front-indicator {/*北面*/
+	width:250px;
+	margin: 0 32px 20px 3px;
+	background-color: #f6f6f6;
+	color: #a0a0a0;
+	text-align: center;
+	padding: 3px;
+	border-radius: 5px;
+}
+.wrapper {
+	width: 100%;
+	text-align: center;
+}
+.container {
+	display: table-cell;
+	margin: 20px;
+	width: 700px;
+	height:260px;
+	padding-right:20px;
+	text-align: left;
+	padding-top: 40px;
+	padding-left:20px;
+}
+.container1 {
+	display: table-cell;
+	margin: 20px;
+	width: 700px;
+	height:800px;
+	padding-right:10px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left:20px;
+}
+.booking-details {
+	float: right;
+	text-align: left;
+	margin-left: 35px;
+	font-size: 12px;
+	position: relative;
+	height: 401px;
+}
+.booking-details h2 {
+	margin: 25px 0 20px 0;
+	font-size: 17px;
+}
+.booking-details h3 {
+	margin: 20px 5px 30px 0;
+	font-size: 20px;
+}
+div.seatCharts-cell {
+	color: #182C4E;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	
+}
+div.seatCharts-seat {
+	color: #FFFFFF;
+	cursor: pointer;	
+}
+div.seatCharts-row {
+	height: 40px;
+}
+div.seatCharts-seat.available.free-class {
+	background-color: #B9DEA0;
+
+}
+
+div.seatCharts-seat.unavailable.busy-class{
+	background-color: #7d96c6;/*#3a78c3*/
+}
+div.seatCharts-seat.focused {
+	background-color: #76B474;
+}
+div.seatCharts-seat.selected {
+	background-color: #ebe8ac;
+}
+div.seatCharts-seat.unavailable.fix-class {
+	background-color: #ccc;
+}
+div.seatCharts-container {
+	border-right: 1px dotted #adadad;
+	width: 250px;
+	padding: 60px;
+	float: left;
+	height: 260px;
+}
+div.seatCharts-container1 {
+	border-right: 1px dotted #adadad;
+	width: 250px;
+	padding:5px 30px 60px 100px;
+	float: left;
+	height: 260px;
+}
+div.seatCharts-legend {/*介绍框*/
+	padding-left: 0px;
+	bottom: 0;
+}
+ul.seatCharts-legendList {
+	padding-left: 0px;
+	padding-top: 25px;
+}
+span.seatCharts-legendDescription {
+	margin-left: 5px;
+	line-height: 30px;
+}
+.checkout-button {/*button*/
+	display: block;
+	margin: 10px 0;
+	font-size: 14px;
+}
+#selected-seat {/*座位选择框1*/
+	height: 70px;
+	overflow-y:hidden;
+	overflow-x: hidden;
+	width: 200px;
+	text-align: left;
+	list-style: none;
+}
+#selected-seat2 {/*座位选择框*/
+	height: 70px;
+	overflow-y:hidden;
+	overflow-x: hidden;
+	width: 200px;
+	text-align: left;
+	list-style: none;
+}
+#seat-map2{
+	width:280px;
+	height: auto;
+}
+#back{
+	background-color: #fafaff;
+	color: #45b6af;
+}
