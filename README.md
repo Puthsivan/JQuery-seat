@@ -1,6 +1,6 @@
 # jQuery Seat Charts
 
-### jQuery Seat Charts (JSC) is a full-blown seat map library. It will generate an accessible map, legend, handle mouse & keyboard events and finally give you powerful selectors to control your map.
+### jQuery Seat Charts (JSC) is a full-blown seat map library. It will generate an accessible map, legend, handle mouse & keyboard events and finally give you powerful selectors to control your map.不记得原作者是谁了（-_-）|||，侵删。
 
 [Simple demo map](http://jsc.mm-lamp.com/)
 
